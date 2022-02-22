@@ -1,0 +1,258 @@
+/*font-family: aileron, sans-serif;*/
+@import url("https://use.typekit.net/auw4kxl.css");
+
+:root {
+    --dark-grey: #1D1D1D;;
+    --gray: #7d7987;
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #458ff6;
+}
+
+* 
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: "Aileron", sans-serif;
+    position: relative;
+    width: 1440px;
+    height: 1202px;
+    background: #091119;
+}
+
+    /* Home */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: #458ff6; */
+}
+
+
+.home1 {
+    position: absolute;
+width: 62px;
+height: 19px;
+left: 463px;
+top: 85px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+.topics1 {
+    position: absolute;
+width: 80px;
+height: 22px;
+left: 581px;
+top: 84px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+.text-container h15 {
+    position: absolute;
+    width: 416px;
+    height: 86px;
+    left: 512px;
+    top: 284px;
+    
+    font-family: Aileron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.text-container p15 {
+    position: absolute;
+    width: 572px;
+    height: 75px;
+    left: 434px;
+    top: 383px;
+    
+    font-family: Aileron;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.background-contact {
+    position: absolute;
+    width: 1440px;
+    height: 916px;
+    left: 70px;
+    
+    opacity: 0.5;
+}
+
+.follow-logo {
+position: absolute;
+width: 260px;
+height: 62px;
+left: 119px;
+top: 63px;
+}
+
+
+.blockchain-image {
+    position: absolute;
+    width: 385px;
+    height: 227px;
+    left: 121px;
+    top: 756px;
+}
+
+.coding-image {
+    position: absolute;
+    width: 384px;
+    height: 227px;
+    left: 529px;
+    top: 756px;
+    
+}
+
+.news-image {
+    position: absolute;
+    width: 385px;
+    height: 227px;
+    left: 936px;
+    top: 756px;
+}
+
+.follow-text h19 {
+    position: absolute;
+    width: 109px;
+    height: 19px;
+    left: 259px;
+    top: 1028px;
+    
+    font-family: Aileron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.follow-text p19 {
+    position: absolute;
+width: 175px;
+height: 31px;
+left: 226px;
+top: 1072px;
+
+font-family: Aileron;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+.follow-text h20 {
+    position: absolute;
+    width: 70px;
+    height: 19px;
+    left: 716px;
+    top: 1028px;
+    
+    font-family: Aileron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.follow-text p20 {
+    position: absolute;
+    width: 192px;
+    height: 29px;
+    left: 655px;
+    top: 1073px;
+    
+    font-family: Aileron;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.follow-text p21 {
+    position: absolute;
+    width: 155px;
+    height: 30px;
+    left: 1051px;
+    top: 1073px;
+    
+    font-family: Aileron;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+
+.follow-text h21 {
+    position: absolute;
+    width: 55px;
+    height: 19px;
+    left: 1101px;
+    top: 1028px;
+    
+    font-family: Aileron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+

@@ -1,0 +1,137 @@
+/*font-family: aileron, sans-serif;*/
+@import url("https://use.typekit.net/auw4kxl.css");
+
+:root {
+    --dark-grey: #1D1D1D;;
+    --gray: #7d7987;
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #458ff6;
+}
+
+* 
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: "Aileron", sans-serif;
+    height: 100vh;
+    position: absolute;
+    background: #091119;
+}
+
+    /* Home */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: #458ff6; */
+}
+
+
+.home1 {
+    position: absolute;
+width: 62px;
+height: 19px;
+left: 463px;
+top: 85px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+.topics1 {
+    position: absolute;
+width: 80px;
+height: 22px;
+left: 581px;
+top: 84px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+.text-container h14 {
+    position: absolute;
+width: 557px;
+height: 86px;
+left: 442px;
+top: 288px;
+
+font-family: Aileron;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 86px;
+
+color: #FFFFFF;
+}
+
+.text-container p14 {
+    position: absolute;
+width: 572px;
+height: 75px;
+left: 434px;
+top: 383px;
+
+font-family: Aileron;
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.background-contact {
+    position: absolute;
+    width: 1440px;
+    height: 916px;
+    left: 70px;
+    
+    opacity: 0.5;
+}
+
+.footer-contact {
+    position: absolute;
+    width: 1440px;
+    height: 562px;
+    left: 0px;
+    top: 847px;
+
+background: linear-gradient;
+mix-blend-mode: luminosity;
+filter: blur(3px);
+}
+
+.contact-logo {
+    position: absolute;
+    width: 260px;
+    height: 62px;
+    left: 119px;
+    top: 63px;
+}
+
